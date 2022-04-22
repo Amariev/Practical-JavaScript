@@ -9,6 +9,6 @@ printFirst(array);
 //----------------------
 // expand parameters
 
-const expandFn = (...args) => args.map(e => console.log);
+const expandFn = (...args) => args.map(console.log);
 
 expandFn(2,3,4,5);
